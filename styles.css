@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Cor de fundo azul claro */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #fff; /* Fundo branco */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    color: #2c3e50; /* Cor do título */
+}
+
+p {
+    color: #34495e; /* Cor do texto */
+    font-size: 1.2em;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9; /* Cor do botão ao passar o mouse */
+}
